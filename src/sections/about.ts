@@ -30,14 +30,14 @@ export function renderAbout(): string {
         </p>
         <div class="about__photos" aria-hidden="true">
           <img
-            src="/images/machines.jpg"
+            src="${import.meta.env.BASE_URL}images/machines.jpg"
             alt="Modern Dexter commercial washing machines at Buhler's Laundry"
             width="400"
             height="300"
             loading="lazy"
           />
           <img
-            src="/images/interior.jpg"
+            src="${import.meta.env.BASE_URL}images/interior.jpg"
             alt="Spacious interior of Buhler's Laundry with rows of washers and large windows"
             width="400"
             height="300"

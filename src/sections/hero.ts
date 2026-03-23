@@ -37,7 +37,7 @@ export function renderHero(): string {
     </div>
     <div class="hero__image-col" data-animate="fade-left" style="--delay: 0.15s">
       <img
-        src="/images/exterior.jpg"
+        src="${import.meta.env.BASE_URL}images/exterior.jpg"
         alt="Exterior of Buhler's Laundry on State Street in American Fork, Utah"
         width="600"
         height="450"
